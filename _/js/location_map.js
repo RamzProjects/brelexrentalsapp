@@ -1,0 +1,1 @@
+$(function(){$("#map_canvas").gmap({center:"25.892136, -80.276245",scrollwheel:!1}),$("#map_canvas").gmap("option","mapTypeId",google.maps.MapTypeId.ROADMAP),$("#map_canvas").gmap("option","zoom",17),$("#map_canvas").gmap("addMarker",{position:"25.892136, -80.276245",marker:MarkerWithLabel})});
